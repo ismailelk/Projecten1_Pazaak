@@ -1,0 +1,134 @@
+.bgimage-notext, .bgimage, .kaart, .bevries{
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 50%;
+}
+
+.bgimage{
+    -fx-background-image: url('../images/pazaak_bg.jpg');
+}
+
+.bgimage-notext{
+    -fx-background-image: url('../images/pazaak_bg_notext.jpg');
+}
+
+.root{
+    -fx-font-family: "Verdana";
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+}
+
+.titel{
+    -fx-padding: 10px;
+}
+
+.geselecteerd{
+    -fx-background-color: #2ecaf7;
+    }
+
+
+.bgkader{
+    -fx-background-color: rgba(260, 260, 260, 0.9);
+    -fx-background-radius: 20px;
+}
+
+.button{
+    -fx-font-size: 24px;
+}
+
+.label{
+    -fx-font-size: 24px;
+    -fx-text-fill: #2ecaf7;
+}
+
+.bgkader .label, .context-menu .label, .vbox .label, .zwarteTekst{
+    -fx-text-fill: #333333;
+}
+
+.zwarteTekst{
+    -fx-padding: 0 10 0 10;
+}
+
+.scroll-pane{
+    -fx-padding: 50 0 0 20;
+}
+
+.label-avatar{
+    -fx-font-size: 18px;
+}
+
+.text-field {
+    -fx-font-size: 24px;
+    -fx-font-family: "Verdana";
+}
+
+.menu-title:disabled {
+    -fx-opacity: 1.0;
+}
+
+.menu-title:disabled .label {
+    -fx-opacity: 1.0;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+
+.kaart-leeg{
+    -fx-background-image: url('../images/cardbg_fog.jpg');
+}
+
+.kaart-plus{
+    -fx-background-image: url('../images/card_plus.jpg');
+}
+
+.kaart-min{
+    -fx-background-image: url('../images/card_min.jpg');
+}
+
+.kaart-spec{
+    -fx-background-image: url('../images/card_spec.jpg');
+}
+
+.kaart-plusmin{
+    -fx-background-image: url('../images/card_plusmin.jpg');
+}
+
+.kaart-gewoon{
+    -fx-background-image: url('../images/card.jpg');
+}
+
+.kaart-achterkant1{
+    -fx-background-image: url('../images/cardbg1.jpg');
+}
+
+.kaart-achterkant2{
+    -fx-background-image: url('../images/cardbg2.jpg');
+}
+
+.kaart-achterkant3{
+    -fx-background-image: url('../images/cardbg3.jpg');
+}
+
+.kaart-achterkant4{
+    -fx-background-image: url('../images/cardbg4.jpg');
+}
+
+.kaart-achterkant5{
+    -fx-background-image: url('../images/cardbg5.jpg');
+}
+
+.kaart-achterkant6{
+    -fx-background-image: url('../images/cardbg6.jpg');
+}
+
+.kaart .label{
+    -fx-padding: 90 0 0 0;
+    -fx-text-fill: black;
+    -fx-font-size: 24px;
+}
